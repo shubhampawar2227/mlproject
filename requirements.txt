@@ -1,0 +1,7 @@
+pandas
+numpy
+seaborn
+
+#whenever you try to install this req.txt at that time setup.py will also run to build the required packages
+-e .
+# this will automatically triggered setup.py file
