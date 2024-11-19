@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 #exc_info() - it will give three returns, exc_tb this will give on which file, which line the exception has occured.
 def error_message_details(error,error_details:sys):
@@ -20,6 +20,18 @@ class CustomException(Exception):
         
         def __str__(self):
              return self.error_message
+        
+
+
+
+
+
+
+
+
+
+
+
         
 # if __name__=='__main__':
 

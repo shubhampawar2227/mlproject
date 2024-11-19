@@ -1,7 +1,10 @@
 pandas
 numpy
 seaborn
-
+matplotlib
+scikit-learn
+catboost
+xgboost
 #whenever you try to install this req.txt at that time setup.py will also run to build the required packages
--e .
+# -e .
 # this will automatically triggered setup.py file
